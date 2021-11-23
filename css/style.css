@@ -24,7 +24,27 @@ li{
 }
 
 .about{
-    
     background-color: rgb(26, 188, 156);
-    
+}
+input[type=text] {
+    width: 70%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+
+.msheight{
+    height: 70px;
+}
+
+.msbutton{
+    background-color: rgb(26, 188, 156);
+}
+
+.prefooter{
+    background-color: rgb(58, 84, 109);
+}
+
+.footer{
+    background-color: #2C3E50;
 }

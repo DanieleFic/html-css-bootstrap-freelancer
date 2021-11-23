@@ -5,3 +5,12 @@ header{
 a{
     text-decoration: none;
 }
+
+li{
+    list-style: none;
+}
+
+.ms-section{
+    height: 500px;
+    background-color: rgb(26, 188, 156);
+}

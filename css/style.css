@@ -11,8 +11,24 @@ li{
 }
 
 .ms-section{
-    height: 400px;
     background-color: rgb(26, 188, 156);
+}
+
+.ms_star{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ms_star:before,
+.ms_star:after {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    line-height: 4px;
+    background-color: #fff;
+    vertical-align: middle;
 }
 
 .avatar{

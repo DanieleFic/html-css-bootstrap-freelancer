@@ -15,9 +15,16 @@ li{
 }
 
 .ms_star{
-    max-width: 400px;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
+    color: white;
+}
+.ms_star2{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
 }
 
 .ms_star:before,
@@ -53,10 +60,11 @@ li{
     background-color: rgb(26, 188, 156);
 }
 input[type=text] {
-    width: 70%;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     border-bottom: 1px solid gray;
+    border-radius: 0;
   }
 
 .msheight{
@@ -65,6 +73,8 @@ input[type=text] {
 
 .msbutton{
     background-color: rgb(26, 188, 156);
+    width: 80px;
+    color: white;
 }
 
 .prefooter{
@@ -77,4 +87,10 @@ input[type=text] {
 
 #evidenzia{
     color: rgb(26, 188, 156);
+}
+
+.ms_border{
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
 }

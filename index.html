@@ -12,21 +12,27 @@
 <body>
     <header>
         <!--NAVIGATORE-->
-        <nav class="container-fluid">
-            <div class="row p-1">
-                <div class="col-6 d-flex justify-content-center p-2">
-                    <a href=""><p class="text-white fw-bolder">START BOOTSTRAP</p></a>
-                </div>
-            
-                <div class="col-6 d-flex justify-content-center">
-                    <ul class="list-group list-group-horizontal">
-                        <a href=""><li class="text-white p-2">Portfolio</li></a>
-                        <a href=""><li class="text-white p-2">About</li></a>
-                        <a href=""><li class="text-white p-2">Contact</li></a>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container p-2">
+              <a class="navbar-brand text-white" href="#">GET BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-white">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
     <!--PARTE SOTTO NAVIGATORE-->
     <section class="ms-section">
@@ -41,6 +47,7 @@
             </div>
         </div>
     </section>
+    <!--BOX IMMAGINI-->
     <section>
         <div class="container text-center pt-5">
             <h2 class="text-black fw-bolder">PORTFOLIO</h2>
@@ -65,7 +72,7 @@
                 <img class="box rounded-3" src="img/submarine.png" alt="">
             </div>
     </section>
-
+    <!--TESTO SOTTO IMMAGINI-->
     <section class="about pb-4 mt-3">
         <div class="container text-center pt-5">
             <h2 class="text-white fw-bolder ">ABOUT</h2>
@@ -92,41 +99,46 @@
             <button type="button" class="btn border border-1 text-white"><i class="bi bi-download .bg-light.bg-gradient pe-2"></i>Download</button>
         </div>     
     </section>
-
+    <!--FORM-->
     <section class="contact text-center">
         <h2 class="text-black fw-bolder mt-4">CONTACT ME</h2>
-        <div class="container  pt-5">
-            <div class="row flex-column">
-                <div class="col-12  col-sm-12 col-lg-12 pt-5 ">
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" name="fname">
-                </div>
-                <div class="col-12  col-sm-12 col-lg-12 pt-5 ">
-                    <label for="fname">Email Address</label>
-                    <input type="text" id="fname" name="fname">
-                </div>
-                <div class="col-12  col-sm-12 col-lg-12 pt-5 ">
-                    <label for="fname">Phone Number</label>
-                    <input type="text" id="fname" name="fname">
-                </div>
-                <div class="col-12  col-sm-12 col-lg-12 pt-5 ">
-                    <label for="fname">Message</label>
-                    <input class="msheight" type="text" id="fname" name="fname">
+        <div class="ms_star2 text-center"><i class="bi bi-star-fill px-3"></i></div>
+            <div class="container  pt-2">
+                <div class="row">
+                    <div class="col-12  col-sm-12 col-lg-12 pt-5 ">
+                        <div class="input-group input-group-lg p-3">
+                            <span id="inputGroup-sizing-lg"></span>
+                            <input type="text"  aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Name">
+                        </div>
+                        <div class="input-group input-group-lg p-3">
+                            <span id="inputGroup-sizing-lg"></span>
+                            <input type="text" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Email Adress">
+                        </div>
+                        <div class="input-group input-group-lg p-3">
+                            <span id="inputGroup-sizing-lg"></span>
+                            <input type="text"  aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Phone number">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control ms_border" placeholder="Leave a comment here" id="floatingTextarea" ></textarea>
+                            <label for="floatingTextarea" placeholder="Leave a comment here">Message</label>
+                        </div>
+                        <button class="btn border border-1 text-black mt-3 msbutton">Send</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <button type="msbutton " class="btn border border-1 text-black mt-3">Send</button>
     </section>
+    <!--PREFOOTER-->
     <section class="prefooter pb-4 mt-3">
         <div class="container d-flex flex-column  pt-5">
             <div class="row">
-                <div class="col-12  col-sm-4 col-lg-4 text-center">
+                <div class="col-12  col-sm-4 col-lg-4 text-center p-2 ">
                     <p class="text-white">LOCATION</p>
                     <p class="text-white">2215 Jhon Daniel Drive Clark, MO
                         54243
                     </p>
                 </div>
-                <div class="col-12  col-sm-4 col-lg-4">
+                <div class="col-12  col-sm-4 col-lg-4 p-2">
                     <p class="text-white text-center">AROUND THE WEB</p>
                     <div class=" d-flex justify-content-center">
                         <div class=" p-1">
@@ -155,7 +167,7 @@
                     </div>
                     </div>
                     </div>
-                <div class="col-12  col-sm-4 col-lg-4">
+                <div class="col-12  col-sm-4 col-lg-4 p-2">
                     <p class="text-white text-center">
                         ABOUT FREELANCER
                     </p>
@@ -168,6 +180,7 @@
             </div>
         </div>     
     </section>
+    <!--FOOTER-->
     <section class="footer p-4">
         <div class="container">
             <div class="row">

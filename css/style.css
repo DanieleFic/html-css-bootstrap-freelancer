@@ -30,6 +30,16 @@ li{
     background-color: #fff;
     vertical-align: middle;
 }
+.ms_star2:before,
+.ms_star2:after {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    line-height: 4px;
+    background-color: #000;
+    vertical-align: middle;
+}
 
 .avatar{
     height: 200px;
